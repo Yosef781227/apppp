@@ -94,3 +94,75 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  margin-top: auto;
+}
+
+.footer a {
+  color: #0066cc;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Terms and Policy Page Styles */
+.legal-page {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.legal-page h1 {
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.legal-page .content {
+  margin-top: 20px;
+}
+
+.legal-page .back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.legal-page .back-link:hover {
+  text-decoration: underline;
+}
+
+/* Override body styles for legal pages */
+.legal-page body {
+  display: block;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #213547;
+}
+
+/* Override body styles for main page */
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#app {
+  flex: 1;
+}
